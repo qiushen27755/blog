@@ -1,0 +1,43 @@
+/*---设置padding ---*/
+.m-padded-mini{
+    padding: 0.2em !important;
+}
+.m-padded-tiny{
+    padding: 0.3em !important;
+}
+
+.m-padded-tn-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    
+}
+.m-padded-tn-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.m-padded-tn-huge{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tn-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+/*----------行内改成行内-使用display属性---------*/
+.m-inline-block{
+    display: inline-block;
+}
+/*----------------字体------------------*/
+.m-text-thin{
+    font-weight: 300 !important;
+
+}
+.m-text-spaced{
+    letter-spacing: 1px !important;
+}
+.m-text-lined{
+    line-height: 1.8;
+}
+.m-opacity-mini{
+    opacity: 0.8;
+}
