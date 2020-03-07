@@ -5,7 +5,7 @@ import ContentFoot from './foot'
 const count=[1,2,3]
 function HomeContent(props){
      return(
-        <div style={{opacity:'0.7'}}>
+        <div>
             <ContentHead></ContentHead>
             {
                 count.map((i,j)=>{

@@ -12,11 +12,17 @@ function ContentBody(props){
                 <Grid  reversed='mobile vertically' stackable columns={2} >
                     {/* 正文标题和内容*/}
                     <Grid.Column   width={11}>
-                            <Header as='h3'  >你真的理解什么是财富自由吗</Header>
-                            <p>正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，我们很多人很多时候根本没有对正确目标的定义,甚至根本从来没有想过,只是大家都这么做而已...</p>
+                             <Header as={Link} to={`/blogInfo/${'aa'}`} >你真的理解什么是财富自由吗</Header>
+                              
+                                <p></p>
+                             <p>正确做好任何一件事情的前提是清晰、正确的理解目标。而事实是，
+                                 我们很多人很多时候根本没有对正确目标的定义,甚至根本从来没有想过,
+                                 只是大家都这么做而已...</p>
+                              
                         {/**底部便签 */}
                         <BodyLine></BodyLine>
                     </Grid.Column>
+                    
                         {/**右边的配图 */}
                         <Grid.Column width={5}>
                             <Image

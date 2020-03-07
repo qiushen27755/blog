@@ -15,7 +15,7 @@ function BlogHeader(props){
                     {/* <Container  textAlign='left' > */}
                             <Menu  secondary stackable >
                                 <Item>
-                                    <Header as='h2' color='teal' position='left' > 
+                                    <Header as={NavLink} to='/home' color='teal' position='left' > 
                                         <span>Semantic Blog</span>
                                     </Header>
                                 </Item>

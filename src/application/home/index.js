@@ -3,24 +3,21 @@ import {Grid} from 'semantic-ui-react'
 import {renderRoutes} from 'react-router-config'
 import BlogFooter from '../../component/footer'
 import HomeHead from './content'
-import HomeCard from './card'
+import HomeCard from './right'
 import BackContent from '../../assets/image/bg2.jpg'
 
 function BlogHome(props){
-    console.log(props.history)
-    const renderInfo=()=>{
-        props.history.push(`/blogInfo/${1}`)
-    }
+     
      return(
         <div>
         {/* <Segment > */}
-             
+             {/* style={{backgroundImage: `url(${BackContent})`}} */}
                 <br />
                 {/* <Container> */}
-                    <Grid stackable style={{backgroundImage: `url(${BackContent})`}}>
+                    <Grid stackable >
 
 
-                    <Grid.Column width={4}>
+                    <Grid.Column width={3}>
                         <HomeCard  ></HomeCard>
                     </Grid.Column>
 
@@ -32,7 +29,7 @@ function BlogHome(props){
                         
 
                         {/**博客标签/广告/整理 */}
-                        <Grid.Column width={3}>
+                        <Grid.Column width={4}>
                             {/**分类 */}
                             <HomeCard></HomeCard>
                         </Grid.Column>
